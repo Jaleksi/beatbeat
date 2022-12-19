@@ -1,0 +1,36 @@
+#controlsContainer {
+	text-align: center;
+	background: yellow;
+}
+
+#playerContainer {
+	background: red;
+	margin: 10px;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.track {
+	height: 50px;
+	background: blue;
+	display: flex;
+	flex-direction: row;
+}
+
+.beatButton {
+	width: 40px;
+	margin: 5px;
+	height: 40px;
+	opacity: 0.75;
+}
+
+.toggledBeat {
+	opacity: 1;
+}
+
+.highlightedBeat {
+	border-style: solid;
+}
