@@ -8,9 +8,16 @@
   </head>
   <body>
     <div id="controlsContainer">
-      <button id="playButton">play/stop</button>
+      <button id="playButton">▶</button>
+      <button id="clearButton">🗑</button>
+    </div>
+    <div id="beatBinaryContainer">
+      <input type="text" id="beatBinaryInput" name="beatBinaryInput">
     </div>
     <div id="playerContainer"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+    <script src="./js/beatUtils.js"></script>
     <script src="./js/beat.js"></script>
     <script src="./js/track.js"></script>
     <script src="./js/main.js"></script>

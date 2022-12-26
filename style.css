@@ -1,36 +1,71 @@
+html {
+  background: #fbf8cc;
+}
+
+button {
+  width: 16vw;
+  height: 16vw;
+  font-size: 8vw;
+  margin-bottom: 3vw;
+}
+
 #controlsContainer {
 	text-align: center;
-	background: yellow;
+}
+
+#beatBinaryInput {
+  font-size: 6vw;
+  text-align: center;
+}
+
+#beatBinaryContainer {
+  text-align: center;
+  margin-bottom: 6vw;
 }
 
 #playerContainer {
-	background: red;
-	margin: 10px;
-	justify-content: center;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  margin: 0.05vw;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .track {
-	height: 50px;
-	background: blue;
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
+}
+
+.track .trackIcon {
+  display: block;
+  margin: auto;
+}
+
+
+.trackIcon {
+  width: 2.5vh;
+  height: 2.5vh;
 }
 
 .beatButton {
-	width: 40px;
-	margin: 5px;
-	height: 40px;
-	opacity: 0.75;
+  width: 3vw;
+  margin: 0.5vw;
+  height: 3vh;
+  opacity: 0.7;
+  background: #c9cba3;
 }
 
+.beatButton:nth-child(4n + 2) {
+  margin-left: 2vw;
+}
+
+
 .toggledBeat {
-	opacity: 1;
+  background: #5dd39e;
+  transition: opacity 0.04s linear;
 }
 
 .highlightedBeat {
-	border-style: solid;
+  opacity: 1;
 }
